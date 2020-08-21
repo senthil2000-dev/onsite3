@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css">
+    <title>Spotify task</title>
+</head>
+<body>
+    <div class="logoContainer">
+        <img src="spotifyLogo.png" alt="logo">
+        <h1>Spotify Artists</h1>
+    </div>
+    <div class="inputDiv">
+        <label>Enter the 2 artists to find the Shortest Path between the Artists</label>
+        <input type="text" id="start" placeholder="Starting artist">
+        <input type="text" id="end" placeholder="Ending artist">
+        <button class="btn" onclick="convertNameToId()">Find</button>
+    </div>
+    <div id="disp"></div>
+    <div id="green"></div>
+    <script src="string.js"></script>
+    <script src="spotify.js"></script>
+</body>
+</html>
